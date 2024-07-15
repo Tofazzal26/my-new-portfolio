@@ -14,7 +14,6 @@ const Root = () => {
     >
       <Headers />
       <Outlet />
-      <h1>Home Page</h1>
     </div>
   );
 };
