@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner";
 import MyQuality from "../../Components/MyQuality/MyQuality";
+import MyRecentWorks from "../../Components/MyRecentWorks/MyRecentWorks";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         </div>
         <div className="mt-[95px]">
           <MyQuality />
+          <MyRecentWorks />
         </div>
       </div>
     </div>

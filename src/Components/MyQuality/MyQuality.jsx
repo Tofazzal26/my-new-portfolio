@@ -9,7 +9,7 @@ import "./MyQuality.css";
 const MyQuality = () => {
   return (
     <div className="bg-[#070707]">
-      <div className="p-[100px]">
+      <div className="lg:p-[100px] p-3">
         <div className="text-center text-white mb-[100px]">
           <h2 className="text-[40px] font-bold font-dmFont">
             My Quality <span className="text-[#c9f31d]">Services</span>
@@ -19,10 +19,10 @@ const MyQuality = () => {
             project that inspires you and you customers.
           </p>
         </div>
-        <div className="text-white">
+        <div className="text-white text-center">
           <div className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black">
-            <div className="flex items-center justify-between p-10">
-              <div className="flex gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
+              <div className="flex gap-6 flex-col lg:flex-row items-center">
                 <span className="text-[25px] font-bold font-dmFont">01</span>
                 <h2 className="font-bold text-[30px] font-dmFont">
                   Branding Design
@@ -40,8 +40,8 @@ const MyQuality = () => {
             </div>
           </div>
           <div className=" border-t-[1px] border-gray-800 cursor-pointer MyService">
-            <div className="flex items-center justify-between p-10">
-              <div className="flex gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
+              <div className="flex flex-col lg:flex-row gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">02</span>
                 <h2 className="font-bold text-[30px] font-dmFont">
                   UI/UX Design
@@ -59,8 +59,8 @@ const MyQuality = () => {
             </div>
           </div>
           <div className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800 MyService">
-            <div className="flex items-center justify-between p-10">
-              <div className="flex gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
+              <div className="flex flex-col lg:flex-row gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">03</span>
                 <h2 className="font-bold text-[30px] font-dmFont">
                   Web Design
@@ -78,8 +78,8 @@ const MyQuality = () => {
             </div>
           </div>
           <div className=" border-b-[1px] border-gray-800 cursor-pointer MyService">
-            <div className="flex items-center justify-between p-10">
-              <div className="flex gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
+              <div className="flex flex-col lg:flex-row gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">04</span>
                 <h2 className="font-bold text-[30px] font-dmFont">
                   App Design

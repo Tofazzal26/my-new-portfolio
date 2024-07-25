@@ -31,7 +31,7 @@ const Headers = () => {
               className="menu menu-sm dropdown-content bg-base-100 text-black font-dmFont font-semibold text-[10px] rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Services</a>
+                <a>Home</a>
               </li>
               <li>
                 <a>Works</a>
