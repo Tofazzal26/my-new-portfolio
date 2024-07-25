@@ -1,6 +1,4 @@
 .MyService:hover {
-  transition: ease-in;
-  transition-duration: 0.5s;
   background-color: #c9f31d;
   color: black;
 }

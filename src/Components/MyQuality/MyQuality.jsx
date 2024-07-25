@@ -20,7 +20,7 @@ const MyQuality = () => {
           </p>
         </div>
         <div className="text-white">
-          <div className=" border-t-[1px] border-gray-800 cursor-pointer MyService">
+          <div className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black">
             <div className="flex items-center justify-between p-10">
               <div className="flex gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">01</span>
@@ -35,14 +35,11 @@ const MyQuality = () => {
                 </p>
               </div>
               <div>
-                <BsArrowRight
-                  size={35}
-                  className="rotate-[45deg] hover:rotate-[-45deg]"
-                />
+                <BsArrowRight size={35} className="rotate-[45deg]" />
               </div>
             </div>
           </div>
-          <div className=" border-t-[1px] border-gray-800 cursor-pointer">
+          <div className=" border-t-[1px] border-gray-800 cursor-pointer MyService">
             <div className="flex items-center justify-between p-10">
               <div className="flex gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">02</span>
@@ -61,7 +58,7 @@ const MyQuality = () => {
               </div>
             </div>
           </div>
-          <div className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800">
+          <div className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800 MyService">
             <div className="flex items-center justify-between p-10">
               <div className="flex gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">03</span>
@@ -80,7 +77,7 @@ const MyQuality = () => {
               </div>
             </div>
           </div>
-          <div className=" border-b-[1px] border-gray-800 cursor-pointer">
+          <div className=" border-b-[1px] border-gray-800 cursor-pointer MyService">
             <div className="flex items-center justify-between p-10">
               <div className="flex gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">04</span>
