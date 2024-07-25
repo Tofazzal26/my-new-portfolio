@@ -7,18 +7,20 @@ import banner from "../../../public/profile-first.png";
 const Banner = () => {
   return (
     <div className="text-white">
-      <div className="flex lg:flex-row flex-col items-center">
+      <div className="flex lg:flex-row flex-col items-center justify-between">
         <div>
-          <h4 className="text-[#656565] font-interFont text-[45px] leading-[-100px] font-medium tracking-[-0.9px]">
+          <h4 className="text-[#656565] font-interFont text-[22px] lg:text-[45px] leading-[-100px] font-medium tracking-[-0.9px]">
             Hello, i'm
           </h4>
-          <div className="leading-[80px]">
-            <h2 className="text-[#c9f31d] font-dmFont font-bold text-[65px]">
+          <div className="lg:leading-[80px]">
+            <h2 className="text-[#c9f31d] font-dmFont font-bold text-[34px] lg:text-[65px]">
               Tofazzal Hossain
             </h2>
-            <h3 className="font-dmFont text-[65px]">Web Developer</h3>
+            <h3 className="font-dmFont text-[34px] lg:text-[65px]">
+              Web Developer
+            </h3>
           </div>
-          <p className="font-interFont text-[18px] mb-6 lg:w-[650px] text-[#b1b1b1]">
+          <p className="font-interFont text-[16px] lg:text-[18px] mb-6 lg:w-[550px] text-[#b1b1b1]">
             I am a developer passionate about showcasing frontend requirements
             in an attractive way, I am serious, focused, and love new challenges
             believing it's better to fail independently than succeed relying on
@@ -26,7 +28,7 @@ const Banner = () => {
           </p>
           <div className="flex flex-col lg:flex-row gap-6">
             <div>
-              <button className="flex items-center bg-[#c9f31d] gap-2 px-4 py-[14px] rounded-xl text-black font-interFont font-medium">
+              <button className="flex items-center bg-[#c9f31d] gap-2 lg:px-4 px-3 py-[12px] lg:py-[14px] rounded-xl text-black font-interFont font-medium">
                 Download CV
                 <BsDownload size={18} />
               </button>

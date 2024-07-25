@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Headers = () => {
   return (
     <div className="bg-[#1f1f1f] text-white">
@@ -50,19 +52,64 @@ const Headers = () => {
         <div className="navbar-center hidden md:flex lg:flex">
           <ul className="menu menu-horizontal font-dmFont px-1 text-[14px] font-semibold space-x-2">
             <li>
-              <a>Services</a>
+              <a>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "text-[#c9f31d]" : ""
+                  }
+                  to="/"
+                >
+                  Home
+                </NavLink>
+              </a>
             </li>
             <li>
-              <a>Works</a>
+              <a>
+                <NavLink
+                  to="/works"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#c9f31d]" : ""
+                  }
+                >
+                  Works
+                </NavLink>
+              </a>
             </li>
             <li>
-              <a>Skills</a>
+              <a>
+                <NavLink
+                  to="/skills"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#c9f31d]" : ""
+                  }
+                >
+                  Skills
+                </NavLink>
+              </a>
             </li>
             <li>
-              <a>Testimonials</a>
+              <a>
+                <NavLink
+                  to="/testimonials"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#c9f31d]" : ""
+                  }
+                >
+                  Testimonials
+                </NavLink>
+              </a>
             </li>
             <li>
-              <a>Contact</a>
+              <a>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive ? "text-[#c9f31d]" : ""
+                  }
+                >
+                  Contact
+                </NavLink>
+              </a>
             </li>
           </ul>
         </div>
