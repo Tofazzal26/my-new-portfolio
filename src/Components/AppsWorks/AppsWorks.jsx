@@ -21,7 +21,7 @@ const AppsWorks = () => {
   return (
     <div>
       <div className="mt-12">
-        <div className="grid grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12">
           <div>
             <a href="">
               <div

@@ -1,4 +1,5 @@
 import Banner from "../../Components/Banner/Banner";
+import MyExperience from "../../Components/MyExperience/MyExperience";
 import MyQuality from "../../Components/MyQuality/MyQuality";
 import MyRecentWorks from "../../Components/MyRecentWorks/MyRecentWorks";
 
@@ -12,6 +13,7 @@ const Home = () => {
         <div className="mt-[95px]">
           <MyQuality />
           <MyRecentWorks />
+          <MyExperience />
         </div>
       </div>
     </div>
