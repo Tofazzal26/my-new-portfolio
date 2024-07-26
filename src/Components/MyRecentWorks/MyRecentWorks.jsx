@@ -1,5 +1,9 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import { useState } from "react";
+import AllWorks from "../AllWorks/AllWorks";
+import AppsWorks from "../AppsWorks/AppsWorks";
+import BrandingWorks from "../BrandingWorks/BrandingWorks";
+import UiDesign from "../UiDesign/UiDesign";
 const MyRecentWorks = () => {
   const [toggle, setToggle] = useState(0);
 
@@ -17,14 +21,50 @@ const MyRecentWorks = () => {
               <button
                 onClick={() => setToggle(0)}
                 className={`${
-                  toggle === 0 ? "bg-[#c9f31d] rounded-full p-2" : ""
+                  toggle === 0 ? "bg-[#c9f31d]  rounded-full p-2" : ""
                 }`}
               >
                 All
               </button>
-              <button>Apps </button>
-              <button>Branding</button>
-              <button>UX/UI</button>
+              <button
+                onClick={() => setToggle(1)}
+                className={`${
+                  toggle === 1 ? "bg-[#c9f31d]  rounded-full p-2" : ""
+                }`}
+              >
+                Apps{" "}
+              </button>
+              <button
+                onClick={() => setToggle(2)}
+                className={`${
+                  toggle === 2 ? "bg-[#c9f31d]  rounded-full p-2" : ""
+                }`}
+              >
+                Branding
+              </button>
+              <button
+                onClick={() => setToggle(3)}
+                className={`${
+                  toggle === 3 ? "bg-[#c9f31d]  rounded-full p-2" : ""
+                }`}
+              >
+                UX/UI
+              </button>
+            </div>
+          </div>
+          <div className="text-white">
+            <div>
+              {toggle === 0 ? (
+                <AllWorks />
+              ) : toggle === 1 ? (
+                <AppsWorks />
+              ) : toggle === 2 ? (
+                <BrandingWorks />
+              ) : toggle === 3 ? (
+                <UiDesign />
+              ) : (
+                ""
+              )}
             </div>
           </div>
         </div>
