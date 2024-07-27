@@ -2,6 +2,7 @@ import Banner from "../../Components/Banner/Banner";
 import MyExperience from "../../Components/MyExperience/MyExperience";
 import MyQuality from "../../Components/MyQuality/MyQuality";
 import MyRecentWorks from "../../Components/MyRecentWorks/MyRecentWorks";
+import MySkills from "../../Components/MySkills/MySkills";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
           <MyQuality />
           <MyRecentWorks />
           <MyExperience />
+          <MySkills />
         </div>
       </div>
     </div>

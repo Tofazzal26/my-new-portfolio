@@ -1,0 +1,5 @@
+.MySkills:hover {
+  background-color: #c9f31d;
+  color: black;
+  transition: ease-in 0.5s;
+}
