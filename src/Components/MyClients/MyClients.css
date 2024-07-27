@@ -1,0 +1,9 @@
+.MyClientStyle:hover {
+  background-color: #1f1f1f;
+  transition: ease-in-out 0.2s;
+}
+.IconColor:hover {
+  background-color: #c9f31d;
+  color: black;
+  transition: ease-in-out 0.3s;
+}

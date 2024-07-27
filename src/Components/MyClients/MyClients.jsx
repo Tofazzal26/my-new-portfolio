@@ -2,18 +2,39 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FiArrowUpLeft } from "react-icons/fi";
 import { FiArrowUpRight } from "react-icons/fi";
 import person1 from "../../../public/person1.png";
+import "./MyClients.css";
+import { useState } from "react";
 const MyClients = () => {
+  const [client, setClient] = useState(false);
+  const [client2, setClient2] = useState(false);
+
+  const handleClientOpen = () => {
+    setClient(true);
+  };
+
+  const handleClientLeave = () => {
+    setClient(false);
+  };
+
+  const handleClientOpen2 = () => {
+    setClient2(true);
+  };
+
+  const handleClientLeave2 = () => {
+    setClient2(false);
+  };
+
   return (
     <div className="mt-[100px]">
       <div className="text-white bg-[#070707]">
-        <div className="flex gap-10 p-20">
+        <div className="flex gap-10 p-[120px] justify-center">
           <div>
             <p className="text-[16px] font-interFont font-semibold text-[#b0b0b0]">
               Clients Testimonials
             </p>
             <div className="leading-[50px]">
               <h2 className="text-[40px] mt-[10px] font-bold font-interFont">
-                I’ve 1253+ Clients
+                I’ve 100+ Clients
               </h2>
               <h2 className="text-[40px] font-bold font-interFont text-[#c9f31d]">
                 Feedback
@@ -24,17 +45,21 @@ const MyClients = () => {
               inventore veritatis
             </p>
             <div className="flex gap-3">
-              <div className="rounded-full border-[1px] border-gray-600 p-[14px]">
+              <div className="rounded-full IconColor border-[1px] border-gray-600 p-[14px]">
                 <FiArrowUpLeft size={20} />
               </div>
-              <div className="rounded-full border-[1px] border-gray-600 p-[14px]">
+              <div className="rounded-full IconColor border-[1px] border-gray-600 p-[14px]">
                 <FiArrowUpRight size={20} />
               </div>
             </div>
           </div>
           <div>
             <div className="flex items-center gap-8">
-              <div className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] border-[1px] border-gray-800">
+              <div
+                onMouseEnter={handleClientOpen}
+                onMouseLeave={handleClientLeave}
+                className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+              >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
                     <img
@@ -43,8 +68,16 @@ const MyClients = () => {
                       className="rounded-full w-[80px]"
                     />
                     <div className="absolute top-[10px] right-[60px] ">
-                      <div className="bg-[#222222] rounded-full h-[60px] w-[60px]">
-                        <span className="text-[70px] text-[#c9f31d] font-dmFont">
+                      <div
+                        className={`rounded-full ${
+                          client === false ? "bg-[#222222]" : "bg-[#c9f31d]"
+                        } h-[60px] w-[60px]`}
+                      >
+                        <span
+                          className={`text-[70px]  ${
+                            client === false ? "text-[#c9f31d]" : "text-black"
+                          } font-dmFont`}
+                        >
                           “
                         </span>
                       </div>
@@ -63,7 +96,11 @@ const MyClients = () => {
                   </h3>
                 </div>
               </div>
-              <div className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] border-[1px] border-gray-800">
+              <div
+                onMouseEnter={handleClientOpen2}
+                onMouseLeave={handleClientLeave2}
+                className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+              >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
                     <img
@@ -72,8 +109,16 @@ const MyClients = () => {
                       className="rounded-full w-[80px]"
                     />
                     <div className="absolute top-[10px] right-[60px] ">
-                      <div className="bg-[#222222] rounded-full h-[60px] w-[60px]">
-                        <span className="text-[70px] text-[#c9f31d] font-dmFont">
+                      <div
+                        className={`rounded-full ${
+                          client2 === false ? "bg-[#222222]" : "bg-[#c9f31d]"
+                        } h-[60px] w-[60px]`}
+                      >
+                        <span
+                          className={`text-[70px]  ${
+                            client2 === false ? "text-[#c9f31d]" : "text-black"
+                          } font-dmFont`}
+                        >
                           “
                         </span>
                       </div>
