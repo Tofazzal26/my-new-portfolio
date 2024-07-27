@@ -39,7 +39,7 @@ const MySkills = () => {
                 <div className="flex items-center justify-center flex-col">
                   <img src={illustrator} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
-                    92%
+                    98%
                   </h2>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const MySkills = () => {
                 <div className="flex items-center justify-center flex-col">
                   <img src={react} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
-                    92%
+                    80%
                   </h2>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const MySkills = () => {
                 <div className="flex items-center justify-center flex-col">
                   <img src={photo_shop} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
-                    92%
+                    85%
                   </h2>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const MySkills = () => {
                 <div className="flex items-center justify-center flex-col">
                   <img src={javascript} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
-                    92%
+                    90%
                   </h2>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const MySkills = () => {
                 <div className="flex items-center justify-center flex-col">
                   <img src={premiere_pro} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
-                    92%
+                    80%
                   </h2>
                 </div>
               </div>
