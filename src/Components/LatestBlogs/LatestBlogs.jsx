@@ -1,4 +1,7 @@
 import blog1 from "../../../public/blog1.jpg";
+import blog2 from "../../../public/blog2.jpg";
+import blog3 from "../../../public/blog3.jpg";
+import blog4 from "../../../public/blog4.jpg";
 import { FiArrowUpRight } from "react-icons/fi";
 import { SlCalender } from "react-icons/sl";
 import "./LatestBlogs.css";
@@ -16,9 +19,9 @@ const LatestBlogs = () => {
             </h2>
           </div>
           <div className="mt-[50px]">
-            <div className="flex justify-center gap-7">
+            <div className="flex lg:flex-row flex-col justify-center gap-7">
               <div className="space-y-[28px]">
-                <div className="bg-[#1f1f1f] w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
                   <div className="p-3">
                     <div className="flex gap-6 items-center">
                       <div>
@@ -45,12 +48,12 @@ const LatestBlogs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#1f1f1f] w-[630px] BlogEffect rounded-[15px] border-[1px] border-gray-600">
+                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect rounded-[15px] border-[1px] border-gray-600">
                   <div className="p-3">
                     <div className="flex gap-6 items-center">
                       <div>
                         <img
-                          src={blog1}
+                          src={blog2}
                           alt=""
                           className="w-[300px] h-[205px] rounded-[10px]"
                         />
@@ -74,12 +77,12 @@ const LatestBlogs = () => {
                 </div>
               </div>
               <div className="space-y-[28px]">
-                <div className="bg-[#1f1f1f] w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
                   <div className="p-3">
                     <div className="flex gap-6 items-center">
                       <div>
                         <img
-                          src={blog1}
+                          src={blog3}
                           alt=""
                           className="w-[300px] h-[205px] rounded-[10px]"
                         />
@@ -101,12 +104,12 @@ const LatestBlogs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#1f1f1f] w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
                   <div className="p-3">
                     <div className="flex gap-6 items-center">
                       <div>
                         <img
-                          src={blog1}
+                          src={blog4}
                           alt=""
                           className="w-[300px] h-[205px] rounded-[10px]"
                         />
