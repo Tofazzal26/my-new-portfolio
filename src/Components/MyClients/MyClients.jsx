@@ -2,6 +2,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FiArrowUpLeft } from "react-icons/fi";
 import { FiArrowUpRight } from "react-icons/fi";
 import person1 from "../../../public/person1.png";
+import person2 from "../../../public/Person2.png";
 import "./MyClients.css";
 import { useState } from "react";
 const MyClients = () => {
@@ -27,7 +28,7 @@ const MyClients = () => {
   return (
     <div className="mt-[100px]">
       <div className="text-white bg-[#070707]">
-        <div className="flex gap-10 p-[120px] justify-center">
+        <div className="flex lg:flex-row flex-col gap-10 lg:p-[120px] justify-center">
           <div>
             <p className="text-[16px] font-interFont font-semibold text-[#b0b0b0]">
               Clients Testimonials
@@ -45,16 +46,16 @@ const MyClients = () => {
               inventore veritatis
             </p>
             <div className="flex gap-3">
-              <div className="rounded-full IconColor border-[1px] border-gray-600 p-[14px]">
+              <div className="rounded-full cursor-pointer IconColor border-[1px] border-gray-600 p-[14px]">
                 <FiArrowUpLeft size={20} />
               </div>
-              <div className="rounded-full IconColor border-[1px] border-gray-600 p-[14px]">
+              <div className="rounded-full IconColor cursor-pointer border-[1px] border-gray-600 p-[14px]">
                 <FiArrowUpRight size={20} />
               </div>
             </div>
           </div>
           <div>
-            <div className="flex items-center gap-8">
+            <div className="flex lg:flex-row flex-col items-center gap-8">
               <div
                 onMouseEnter={handleClientOpen}
                 onMouseLeave={handleClientLeave}
@@ -104,7 +105,7 @@ const MyClients = () => {
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
                     <img
-                      src={person1}
+                      src={person2}
                       alt=""
                       className="rounded-full w-[80px]"
                     />

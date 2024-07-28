@@ -1,9 +1,11 @@
 import Banner from "../../Components/Banner/Banner";
+import LatestBlogs from "../../Components/LatestBlogs/LatestBlogs";
 import MyClients from "../../Components/MyClients/MyClients";
 import MyExperience from "../../Components/MyExperience/MyExperience";
 import MyQuality from "../../Components/MyQuality/MyQuality";
 import MyRecentWorks from "../../Components/MyRecentWorks/MyRecentWorks";
 import MySkills from "../../Components/MySkills/MySkills";
+import ProjectCompletes from "../../Components/ProjectCompletes/ProjectCompletes";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
           <MyExperience />
           <MySkills />
           <MyClients />
+          <ProjectCompletes />
+          {/* <LatestBlogs /> */}
         </div>
       </div>
     </div>
