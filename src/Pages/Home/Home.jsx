@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner";
 import LatestBlogs from "../../Components/LatestBlogs/LatestBlogs";
+import LetTalks from "../../Components/LetTalks/LetTalks";
 import MyClients from "../../Components/MyClients/MyClients";
 import MyExperience from "../../Components/MyExperience/MyExperience";
 import MyQuality from "../../Components/MyQuality/MyQuality";
@@ -21,7 +22,8 @@ const Home = () => {
           <MySkills />
           <MyClients />
           <ProjectCompletes />
-          {/* <LatestBlogs /> */}
+          <LatestBlogs />
+          <LetTalks />
         </div>
       </div>
     </div>
