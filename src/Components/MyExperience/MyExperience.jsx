@@ -2,6 +2,8 @@ import { useState } from "react";
 import education from "../../../public/education.png";
 import experience from "../../../public/experience.png";
 import "./MyExperience.css";
+import { SlGraduation } from "react-icons/sl";
+import { TbAward } from "react-icons/tb";
 
 const MyExperience = () => {
   const [change, setChange] = useState(false);
@@ -61,7 +63,7 @@ const MyExperience = () => {
           <div className="grid lg:grid-cols-2 grid-cols-1">
             <div>
               <div className="flex items-center gap-4">
-                <img className="w-[50px]" src={experience} alt="" />
+                <TbAward className="text-white" size={48} />
                 <h2 className="text-[40px] font-bold font-dmFont text-white">
                   My <span className="text-[#c9f31d]">Experience</span>
                 </h2>
@@ -136,7 +138,7 @@ const MyExperience = () => {
             </div>
             <div>
               <div className="flex items-center gap-4">
-                <img className="w-[60px]" src={education} alt="" />
+                <SlGraduation className="text-white" size={45} />
                 <h2 className="text-[40px] font-bold font-dmFont text-white">
                   My <span className="text-[#c9f31d]">Education</span>
                 </h2>

@@ -15,7 +15,7 @@ const Home = () => {
         <div className="mt-12">
           <Banner />
         </div>
-        <div className="mt-[95px]">
+        <div className="mt-[40px] lg:mt-[95px]">
           <MyQuality />
           <MyRecentWorks />
           <MyExperience />

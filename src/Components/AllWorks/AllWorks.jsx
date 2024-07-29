@@ -39,8 +39,8 @@ const AllWorks = () => {
   };
 
   return (
-    <div className="mt-12">
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-12">
+    <div className="mt-6 lg:mt-12">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-12">
         <div>
           <a href="">
             <div

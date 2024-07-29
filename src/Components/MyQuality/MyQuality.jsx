@@ -10,45 +10,45 @@ const MyQuality = () => {
   return (
     <div className="bg-[#070707]">
       <div className="lg:p-[100px] p-3">
-        <div className="text-center text-white mb-[100px]">
-          <h2 className="text-[40px] font-bold font-dmFont">
+        <div className="text-center text-white mb-[20px] lg:mb-[100px]">
+          <h2 className="text-[28px] mt-4 lg:mt-0 lg:text-[40px] font-bold font-dmFont">
             My Quality <span className="text-[#c9f31d]">Services</span>
           </h2>
-          <p className="font-interFont mx-auto lg:w-[600px] text-[16px]">
+          <p className="font-interFont mx-auto lg:w-[600px] text-[14px] lg:text-[16px]">
             We put your ideas and thus your wishes in the form of a unique web
             project that inspires you and you customers.
           </p>
         </div>
         <div className="text-white text-center">
           <div className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black">
-            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
-              <div className="flex gap-6 flex-col lg:flex-row items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
+              <div className="flex lg:gap-6 flex-col lg:flex-row items-center">
                 <span className="text-[25px] font-bold font-dmFont">01</span>
-                <h2 className="font-bold text-[30px] font-dmFont">
+                <h2 className="font-bold text-[20px] lg:text-[30px] font-dmFont">
                   Branding Design
                 </h2>
               </div>
               <div>
-                <p className="lg:w-[450px] text-[16px] font-interFont">
+                <p className="lg:w-[450px] text-[14px] lg:text-[16px] font-interFont">
                   I break down complex user experience problems to create
                   integritiy focused solutions that connect billions of people
                 </p>
               </div>
               <div>
-                <BsArrowRight size={35} className="rotate-[45deg]" />
+                <BsArrowRight size={35} className="rotate-[45deg] " />
               </div>
             </div>
           </div>
           <div className=" border-t-[1px] border-gray-800 cursor-pointer MyService">
-            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
-              <div className="flex flex-col lg:flex-row gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
+              <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">02</span>
-                <h2 className="font-bold text-[30px] font-dmFont">
+                <h2 className="font-bold text-[20px] lg:text-[30px] font-dmFont">
                   UI/UX Design
                 </h2>
               </div>
               <div>
-                <p className="lg:w-[450px] text-[16px] font-interFont">
+                <p className="lg:w-[450px] text-[14px] lg:text-[16px] font-interFont">
                   I break down complex user experience problems to create
                   integritiy focused solutions that connect billions of people
                 </p>
@@ -59,10 +59,10 @@ const MyQuality = () => {
             </div>
           </div>
           <div className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800 MyService">
-            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
-              <div className="flex flex-col lg:flex-row gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
+              <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">03</span>
-                <h2 className="font-bold text-[30px] font-dmFont">
+                <h2 className="font-bold text-[20px] lg:text-[30px] font-dmFont">
                   Web Design
                 </h2>
               </div>
@@ -78,10 +78,10 @@ const MyQuality = () => {
             </div>
           </div>
           <div className=" border-b-[1px] border-gray-800 cursor-pointer MyService">
-            <div className="flex flex-col lg:flex-row items-center justify-between p-10">
-              <div className="flex flex-col lg:flex-row gap-6 items-center">
+            <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
+              <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                 <span className="text-[25px] font-bold font-dmFont">04</span>
-                <h2 className="font-bold text-[30px] font-dmFont">
+                <h2 className="font-bold text-[20px] lg:text-[30px] font-dmFont">
                   App Design
                 </h2>
               </div>
