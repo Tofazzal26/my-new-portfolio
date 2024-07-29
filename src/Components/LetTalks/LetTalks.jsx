@@ -68,9 +68,10 @@ const LetTalks = () => {
                     </h2>
 
                     <input
-                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 outline-none rounded-[15px] w-full font-interFont"
+                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700  rounded-[15px] w-full font-interFont"
                       type="text"
                       placeholder="Your Name Here"
+                      required
                     />
                   </div>
                   <div>
@@ -80,9 +81,10 @@ const LetTalks = () => {
                     </h2>
 
                     <input
-                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 outline-none rounded-[15px] w-full font-interFont"
+                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 rounded-[15px] w-full font-interFont"
                       type="text"
                       placeholder="+880 (123) 456 88"
+                      required
                     />
                   </div>
                 </div>
@@ -94,9 +96,10 @@ const LetTalks = () => {
                     </h2>
 
                     <input
-                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 outline-none rounded-[15px] w-full font-interFont"
+                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 rounded-[15px] w-full font-interFont"
                       type="email"
                       placeholder="support@gmail.com"
+                      required
                     />
                   </div>
                   <div>
@@ -106,9 +109,10 @@ const LetTalks = () => {
                     </h2>
 
                     <input
-                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700 outline-none rounded-[15px] w-full font-interFont"
+                      className="bg-[#1f1f1f] text-[16px] px-[25px] py-[18px] border-[1px] border-gray-700  rounded-[15px] w-full font-interFont"
                       type="text"
                       placeholder="I would like to discussed"
+                      required
                     />
                   </div>
                 </div>
@@ -120,9 +124,10 @@ const LetTalks = () => {
                 <textarea
                   name="Message"
                   placeholder="Write message"
-                  className="bg-[#1f1f1f] rounded-[15px] mb-4 px-8 py-4 border-[1px] border-gray-700 outline-none w-full"
+                  className="bg-[#1f1f1f] rounded-[15px] mb-4 px-8 py-4 border-[1px] border-gray-700  w-full"
                   cols="30"
                   rows="4"
+                  required
                 ></textarea>
               </div>
               <button className="text-[16px] bg-[#c9f31d] font-semibold px-[30px] py-[14px] rounded-[15px] font-interFont text-black flex items-center">
