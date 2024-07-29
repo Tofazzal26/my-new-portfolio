@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import bg from "../../public/bg2.png";
+import bg from "../../public/background.png";
 import Headers from "../Components/Headers/Headers";
 import Footer from "../Components/Footer/Footer";
 
