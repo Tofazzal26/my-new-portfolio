@@ -11,8 +11,8 @@ import client10 from "../../../public/client-logo10.png";
 
 const ProjectCompletes = () => {
   return (
-    <div className="text-white mt-[100px]">
-      <h1 className="text-[18px] font-dmFont font-medium text-center mb-[50px]">
+    <div className="text-white mt-[50px] lg:mt-[100px]">
+      <h1 className="text-[18px] font-dmFont font-medium text-center mb-[20px] lg:mb-[50px]">
         I’ve <span className="text-[#c9f31d] ">100+ Global Clients</span> &
         lot’s of Project Complete
       </h1>

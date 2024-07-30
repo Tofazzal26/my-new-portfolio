@@ -26,22 +26,22 @@ const MyClients = () => {
   };
 
   return (
-    <div className="mt-[100px]">
+    <div className="mt-[50px] lg:mt-[100px]">
       <div className="text-white bg-[#070707]">
-        <div className="flex lg:flex-row flex-col gap-10 lg:p-[120px] justify-center">
+        <div className="flex lg:flex-row flex-col gap-10 p-[20px] lg:p-[120px] justify-center">
           <div>
-            <p className="text-[16px] font-interFont font-semibold text-[#b0b0b0]">
+            <p className="text-[14px] lg:text-[16px] font-interFont font-semibold text-[#b0b0b0]">
               Clients Testimonials
             </p>
             <div className="leading-[50px]">
-              <h2 className="text-[40px] mt-[10px] font-bold font-interFont">
+              <h2 className="text-[30px] lg:text-[40px] mt-[10px] font-bold font-interFont">
                 I’ve 100+ Clients
               </h2>
-              <h2 className="text-[40px] font-bold font-interFont text-[#c9f31d]">
+              <h2 className="text-[30px] lg:text-[40px] font-bold font-interFont text-[#c9f31d]">
                 Feedback
               </h2>
             </div>
-            <p className="text-[16px] mt-[40px] mb-[50px] font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
+            <p className="text-[14px] lg:text-[16px] lg:mt-[40px] mb-4 lg:mb-[50px] font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
               Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
               inventore veritatis
             </p>
@@ -55,11 +55,11 @@ const MyClients = () => {
             </div>
           </div>
           <div>
-            <div className="flex lg:flex-row flex-col items-center gap-8">
+            <div className="flex lg:flex-row flex-col items-center gap-4 lg:gap-8">
               <div
                 onMouseEnter={handleClientOpen}
                 onMouseLeave={handleClientLeave}
-                className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+                className="bg-[#131313] lg:py-[80px] py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
               >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
@@ -84,15 +84,15 @@ const MyClients = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
+                  <p className="text-[14px] lg:text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
                     At vero eoset accusamus et iusto odio dignissimos ducimus
                     wuie blanditiis praesentium voluptatum deleniti atque
                     corrupti dolores
                   </p>
-                  <h2 className="text-[20px] font-semibold font-dmFont">
+                  <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
                     Rodlfo E. Shannon
                   </h2>
-                  <h3 className="font-interFont mt-1 text-[15px] text-[#c9f31d]">
+                  <h3 className="font-interFont mt-1 text-[14px] lg:text-[15px] text-[#c9f31d]">
                     CEO & Founder
                   </h3>
                 </div>
@@ -100,7 +100,7 @@ const MyClients = () => {
               <div
                 onMouseEnter={handleClientOpen2}
                 onMouseLeave={handleClientLeave2}
-                className="bg-[#131313] py-[80px] px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+                className="bg-[#131313] lg:py-[80px] py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
               >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
@@ -125,15 +125,15 @@ const MyClients = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
+                  <p className="text-[14px] lg:text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
                     At vero eoset accusamus et iusto odio dignissimos ducimus
                     wuie blanditiis praesentium voluptatum deleniti atque
                     corrupti dolores
                   </p>
-                  <h2 className="text-[20px] font-semibold font-dmFont">
+                  <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
                     Rodlfo E. Shannon
                   </h2>
-                  <h3 className="font-interFont mt-1 text-[15px] text-[#c9f31d]">
+                  <h3 className="font-interFont text-[13px] mt-1 lg:text-[15px] text-[#c9f31d]">
                     CEO & Founder
                   </h3>
                 </div>
