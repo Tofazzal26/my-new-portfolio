@@ -15,11 +15,12 @@ const MyQuality = () => {
             My Quality <span className="text-[#c9f31d]">Services</span>
           </h2>
           <p className="font-interFont mx-auto lg:w-[600px] text-[14px] lg:text-[16px]">
-            We put your ideas and thus your wishes in the form of a unique web
-            project that inspires you and you customers.
+            We ensure exceptional standards with meticulous attention to detail,
+            continuously exceeding expectations through commitment and
+            excellence.
           </p>
         </div>
-        <div className="text-white text-center">
+        <div className="text-white ">
           <div className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black">
             <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
               <div className="flex lg:gap-6 flex-col lg:flex-row items-center">
@@ -30,8 +31,8 @@ const MyQuality = () => {
               </div>
               <div>
                 <p className="lg:w-[450px] text-[14px] lg:text-[16px] font-interFont">
-                  I break down complex user experience problems to create
-                  integritiy focused solutions that connect billions of people
+                  Crafting unique brand identities with innovative design for
+                  compelling and resonant visual narratives.
                 </p>
               </div>
               <div>
@@ -49,8 +50,8 @@ const MyQuality = () => {
               </div>
               <div>
                 <p className="lg:w-[450px] text-[14px] lg:text-[16px] font-interFont">
-                  I break down complex user experience problems to create
-                  integritiy focused solutions that connect billions of people
+                  We design intuitive and engaging user interfaces and
+                  experiences that prioritize usability and delight users.
                 </p>
               </div>
               <div>
@@ -68,8 +69,8 @@ const MyQuality = () => {
               </div>
               <div>
                 <p className="lg:w-[450px] text-[16px] font-interFont">
-                  I break down complex user experience problems to create
-                  integritiy focused solutions that connect billions of people
+                  We design visually appealing, user-friendly websites that
+                  provide seamless and engaging online experiences.
                 </p>
               </div>
               <div>
@@ -87,8 +88,8 @@ const MyQuality = () => {
               </div>
               <div>
                 <p className="lg:w-[450px] text-[16px] font-interFont">
-                  I break down complex user experience problems to create
-                  integritiy focused solutions that connect billions of people
+                  Designing intuitive and visually appealing apps that deliver
+                  seamless and engaging user experiences.
                 </p>
               </div>
               <div>

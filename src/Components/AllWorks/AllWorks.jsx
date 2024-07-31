@@ -60,7 +60,7 @@ const AllWorks = () => {
                       Transcrew
                     </h2>
                     <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                      Project was about precision and information.
+                      Here is everything about the project
                     </p>
                   </div>
                   <div>
@@ -92,7 +92,7 @@ const AllWorks = () => {
                         Luxury Hotel
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                        Project was about precision and information.
+                        Here is everything about the project
                       </p>
                     </div>
                     <div>
@@ -124,7 +124,7 @@ const AllWorks = () => {
                         Artisan Corner
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                        Project was about precision and information.
+                        Here is everything about the project
                       </p>
                     </div>
                     <div>
@@ -156,7 +156,7 @@ const AllWorks = () => {
                         Realist Home
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                        Project was about precision and information.
+                        Here is everything about the project
                       </p>
                     </div>
                     <div>

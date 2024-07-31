@@ -56,7 +56,7 @@ const UiDesign = () => {
                           Realist Home
                         </h2>
                         <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                          Project was about precision and information.
+                          Here is everything about the project
                         </p>
                       </div>
                       <div>
@@ -88,7 +88,7 @@ const UiDesign = () => {
                           Luxury Hotel
                         </h2>
                         <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                          Project was about precision and information.
+                          Here is everything about the project
                         </p>
                       </div>
                       <div>
@@ -120,7 +120,7 @@ const UiDesign = () => {
                           Artisan Corner
                         </h2>
                         <p className="text-[16px] mt-2 font-dmFont font-semibold">
-                          Project was about precision and information.
+                          Here is everything about the project
                         </p>
                       </div>
                       <div>

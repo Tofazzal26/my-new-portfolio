@@ -23,35 +23,35 @@ const ProjectCompletes = () => {
               <img
                 src={client1}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client2}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client3}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client4}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client5}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
           </div>
@@ -60,35 +60,35 @@ const ProjectCompletes = () => {
               <img
                 src={client6}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client7}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client8}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client9}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
             <div>
               <img
                 src={client10}
                 alt=""
-                className="opacity-[20%] hover:opacity-[100%] transition-all"
+                className="opacity-[20%] hover:opacity-[100%] transition-all cursor-pointer"
               />
             </div>
           </div>

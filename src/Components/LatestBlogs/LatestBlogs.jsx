@@ -35,11 +35,11 @@ const LatestBlogs = () => {
                         <div className="flex gap-4 BlogText items-center">
                           <SlCalender />
                           <h3 className="text-[14px] lg:text-[16px] text-[#b1b1b1] cursor-pointer BlogText font-interFont">
-                            NOVEMBER 13, 2023
+                            JUNE 12, 2024
                           </h3>
                         </div>
                         <h2 className="text-[19px] lg:text-[22px] mt-[20px] mb-[20px] BlogText cursor-pointer font-semibold font-dmFont">
-                          A Beginner's Guide to Running Adventures
+                          The Importance of Accessibility in Modern Web Design
                         </h2>
                         <button className="text-[16px] flex text-[#c9f31d] items-center gap-2 font-semibold font-interFont">
                           Read More <FiArrowUpRight size={20} />
@@ -62,11 +62,11 @@ const LatestBlogs = () => {
                         <div className="flex BlogText cursor-pointer gap-4 items-center">
                           <SlCalender />
                           <h3 className="text-[14px] lg:text-[16px] BlogText text-[#b1b1b1] font-interFont">
-                            NOVEMBER 13, 2023
+                            MARCH 22, 2022
                           </h3>
                         </div>
-                        <h2 className=" text-[19px] lg:text-[22px] BlogText mt-[20px] mb-[20px] font-semibold font-dmFont">
-                          A Beginner's Guide to Running Adventures
+                        <h2 className=" text-[19px] lg:text-[22px] BlogText mt-[20px] mb-[20px] cursor-pointer font-semibold font-dmFont">
+                          How to Optimize Your Website for Core Web Vitals
                         </h2>
                         <button className="text-[16px] flex text-[#c9f31d] items-center gap-2 font-semibold font-interFont">
                           Read More <FiArrowUpRight size={20} />
@@ -91,11 +91,12 @@ const LatestBlogs = () => {
                         <div className="flex BlogText cursor-pointer gap-4 items-center">
                           <SlCalender />
                           <h3 className="text-[14px] lg:text-[16px] BlogText text-[#b1b1b1] font-interFont">
-                            NOVEMBER 13, 2023
+                            APRIL 08, 2024
                           </h3>
                         </div>
-                        <h2 className="text-[19px] lg:text-[22px] mt-[20px] BlogText mb-[20px] font-semibold font-dmFont">
-                          A Beginner's Guide to Running Adventures
+                        <h2 className="text-[19px] lg:text-[22px] mt-[20px] cursor-pointer BlogText mb-[20px] font-semibold font-dmFont">
+                          Exploring the Latest JavaScript Frameworks: What’s
+                          New?
                         </h2>
                         <button className="text-[16px] flex text-[#c9f31d] items-center gap-2 font-semibold font-interFont">
                           Read More <FiArrowUpRight size={20} />
@@ -118,10 +119,10 @@ const LatestBlogs = () => {
                         <div className="flex BlogText cursor-pointer gap-4 items-center">
                           <SlCalender />
                           <h3 className="text-[14px] lg:text-[16px] BlogText text-[#b1b1b1] font-interFont">
-                            NOVEMBER 13, 2023
+                            DECEMBER 18, 2022
                           </h3>
                         </div>
-                        <h2 className="text-[19px] lg:text-[22px] BlogText mt-[20px] mb-[20px] font-semibold font-dmFont">
+                        <h2 className="text-[19px] lg:text-[22px] cursor-pointer BlogText mt-[20px] mb-[20px] font-semibold font-dmFont">
                           A Beginner's Guide to Running Adventures
                         </h2>
                         <button className="text-[16px] flex text-[#c9f31d] items-center gap-2 font-semibold font-interFont">

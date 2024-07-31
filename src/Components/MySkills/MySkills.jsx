@@ -15,15 +15,16 @@ const MySkills = () => {
             My <span className="text-[#c9f31d]">Skills</span>
           </h2>
           <p className="text-[14px] lg:text-[16px] font-interFont mx-auto lg:w-[660px] text-white text-center">
-            We put your ideas and thus your wishes in the form of a unique web
-            project that inspires you and you customers.
+            I excel at crafting intuitive and engaging web experiences, blending
+            design aesthetics with seamless functionality to enhance user
+            interactions.
           </p>
         </div>
 
         <div className="mt-6 lg:mt-12">
           <div className="flex lg:flex-row flex-col justify-center items-center gap-3 lg:gap-6">
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={figma} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
@@ -35,7 +36,7 @@ const MySkills = () => {
               <h2 className="text-[16px] font-interFont text-white">Figma</h2>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white cursor-pointer w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={illustrator} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
@@ -49,7 +50,7 @@ const MySkills = () => {
               </h2>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={react} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
@@ -61,7 +62,7 @@ const MySkills = () => {
               <h2 className="text-[16px] font-interFont text-white">React</h2>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={photo_shop} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
@@ -75,7 +76,7 @@ const MySkills = () => {
               </h2>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={javascript} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">
@@ -89,7 +90,7 @@ const MySkills = () => {
               </h2>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <div className="bg-[#070707] text-white w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
+              <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={premiere_pro} width={60} alt="" />
                   <h2 className="text-[20px] font-extrabold font-dmFont mt-4">

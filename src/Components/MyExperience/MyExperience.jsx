@@ -73,7 +73,7 @@ const MyExperience = () => {
                   <div
                     onMouseEnter={handleChange}
                     onMouseLeave={handleBefore}
-                    className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                    className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                   >
                     <div className="p-6 ">
                       <h3
@@ -94,7 +94,7 @@ const MyExperience = () => {
                   <div
                     onMouseEnter={handleChange2}
                     onMouseLeave={handleBefore2}
-                    className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                    className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                   >
                     <div className="p-6 ">
                       <h3
@@ -115,7 +115,7 @@ const MyExperience = () => {
                   <div
                     onMouseEnter={handleChange3}
                     onMouseLeave={handleBefore3}
-                    className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                    className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                   >
                     <div className="p-6">
                       <h3
@@ -149,7 +149,7 @@ const MyExperience = () => {
                     <div
                       onMouseEnter={handleChange4}
                       onMouseLeave={handleBefore4}
-                      className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                      className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                     >
                       <div className="p-6 ">
                         <h3
@@ -171,7 +171,7 @@ const MyExperience = () => {
                     <div
                       onMouseEnter={handleChange5}
                       onMouseLeave={handleBefore5}
-                      className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                      className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                     >
                       <div className="p-6 ">
                         <h3
@@ -192,7 +192,7 @@ const MyExperience = () => {
                     <div
                       onMouseEnter={handleChange6}
                       onMouseLeave={handleBefore6}
-                      className="bg-[#1b1b1b] education lg:w-[600px] rounded-2xl text-white"
+                      className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                     >
                       <div className="p-6 ">
                         <h3

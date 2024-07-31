@@ -14,6 +14,11 @@ const Footer = () => {
             <h2 className="text-[20px] lg:text-[26px] font-bold font-interFont">
               Tofazzal Hossain
             </h2>
+            <p className="text-[18px] w-[600px] leading-[25px] mt-[40px] font-interFont text-[#b1b1b1]">
+              I'm a web developer passionate about crafting beautiful and
+              user-friendly web applications. I specialize in turning complex
+              ideas into visually stunning and functional websites.
+            </p>
           </aside>
 
           <nav>
@@ -56,11 +61,11 @@ const Footer = () => {
               <FaRegMap className="text-[#c9f31d]" size={22} />
               <div>
                 <h3 className="text-[16px] lg:text-[18px] font-dmFont text-[#b1b1b1]">
-                  55 Main Street, 2nd block,
+                  Tongi Gazipur, Gazibari,
                 </h3>
                 <h2 className="text-[16px] lg:text-[18px] mt-2 font-dmFont text-[#b1b1b1]">
                   {" "}
-                  New York City
+                  Dhaka, Bangladesh
                 </h2>
               </div>
             </div>
@@ -68,7 +73,7 @@ const Footer = () => {
               <HiOutlineMail className="text-[#c9f31d]" size={25} />
               <div>
                 <h3 className="text-[16px] lg:text-[18px] font-dmFont text-[#b1b1b1]">
-                  support@gmail.com
+                  afranislamabir6789@gmail.com
                 </h3>
               </div>
             </div>

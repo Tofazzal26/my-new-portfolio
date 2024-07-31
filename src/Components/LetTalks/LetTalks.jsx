@@ -21,8 +21,9 @@ const LetTalks = () => {
               Next Projects
             </h2>
             <p className="text-[14px] lg:text-[16px] text-[#b1b1b1] lg:w-[410px] mt-8 mb-10 font-interFont font-medium">
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis
+              Let's collaborate on your next project and turn your vision into a
+              beautifully attractive reality. With my expertise in frontend
+              development, we can achieve outstanding results together.
             </p>
             <div className="flex flex-col gap-6">
               <div className="flex gap-4 items-center">
@@ -30,7 +31,7 @@ const LetTalks = () => {
                   <FaCheck className="text-black" />
                 </div>
                 <p className="text-[16px] lg:text-[18px] font-interFont">
-                  5+ Years Of Experience
+                  2+ Years Of Experience
                 </p>
               </div>
               <div className="flex gap-4 items-center">
@@ -46,7 +47,7 @@ const LetTalks = () => {
                   <FaCheck className="text-black" />
                 </div>
                 <p className="text-[16px] lg:text-[18px] font-interFont">
-                  Mobile Apps Design
+                  Front-End Developer
                 </p>
               </div>
               <div className="flex gap-4 items-center">

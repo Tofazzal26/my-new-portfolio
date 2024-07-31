@@ -42,8 +42,9 @@ const MyClients = () => {
               </h2>
             </div>
             <p className="text-[14px] lg:text-[16px] lg:mt-[40px] mb-4 lg:mb-[50px] font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
-              Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-              inventore veritatis
+              I have a proven track record of delivering high-quality web
+              development solutions, with consistent positive feedback from a
+              diverse range of clients.
             </p>
             <div className="flex gap-3">
               <div className="rounded-full cursor-pointer IconColor border-[1px] border-gray-600 p-[14px]">
@@ -59,7 +60,7 @@ const MyClients = () => {
               <div
                 onMouseEnter={handleClientOpen}
                 onMouseLeave={handleClientLeave}
-                className="bg-[#131313] lg:py-[80px] py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+                className="bg-[#131313] lg:py-[80px] cursor-pointer py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
               >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
@@ -85,9 +86,10 @@ const MyClients = () => {
                     </div>
                   </div>
                   <p className="text-[14px] lg:text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
-                    At vero eoset accusamus et iusto odio dignissimos ducimus
-                    wuie blanditiis praesentium voluptatum deleniti atque
-                    corrupti dolores
+                    The website redesign exceeded our expectations! The user
+                    experience is seamless, and the new features are exactly
+                    what we needed. Your ability to understand and implement our
+                    vision was impressive
                   </p>
                   <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
                     Rodlfo E. Shannon
@@ -100,7 +102,7 @@ const MyClients = () => {
               <div
                 onMouseEnter={handleClientOpen2}
                 onMouseLeave={handleClientLeave2}
-                className="bg-[#131313] lg:py-[80px] py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
+                className="bg-[#131313] lg:py-[80px] cursor-pointer py-[60px] px-[20px] lg:px-[40px] rounded-[20px] MyClientStyle border-[1px] border-gray-800"
               >
                 <div className="flex justify-center items-center flex-col text-center">
                   <div className="relative">
@@ -126,9 +128,10 @@ const MyClients = () => {
                     </div>
                   </div>
                   <p className="text-[14px] lg:text-[16px] my-6 font-dmFont lg:w-[350px] font-medium text-[#b0b0b0]">
-                    At vero eoset accusamus et iusto odio dignissimos ducimus
-                    wuie blanditiis praesentium voluptatum deleniti atque
-                    corrupti dolores
+                    You turned our ideas into reality with a beautifully
+                    designed, responsive website. The project was completed
+                    ahead of schedule, and your communication was excellent.
+                    Highly recommended!
                   </p>
                   <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
                     Rodlfo E. Shannon
