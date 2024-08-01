@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html {
-  scroll-behavior: smooth;
-} */
-
 a:hover,
 .navItem .active {
   color: #c9f31d;

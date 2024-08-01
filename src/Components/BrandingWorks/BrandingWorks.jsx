@@ -27,7 +27,7 @@ const BrandingWorks = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12">
           <div>
             <div>
-              <a href="">
+              <a href="https://artisan-corner-832b4.web.app" target="_blank">
                 <div
                   onMouseEnter={handleInfoEnter3}
                   onMouseLeave={handleInfoLeave3}
@@ -59,7 +59,10 @@ const BrandingWorks = () => {
           </div>
           <div>
             <div>
-              <a href="">
+              <a
+                href="https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app"
+                target="_blank"
+              >
                 <div
                   onMouseEnter={handleInfoEnter4}
                   onMouseLeave={handleInfoLeave4}

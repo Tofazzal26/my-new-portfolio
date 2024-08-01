@@ -34,22 +34,28 @@ const Banner = () => {
               </button>
             </div>
             <div className="flex gap-4 items-center">
-              <a href="">
+              <a
+                href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+                target="_blank"
+              >
                 <span className="border-2  flex p-1 rounded-full">
                   <GrFacebookOption size={25} />
                 </span>
               </a>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/tofazzalhossain-dev"
+                target="_blank"
+              >
                 <span className="border-2  flex p-1 rounded-full">
                   <BiLogoLinkedin size={25} />
                 </span>
               </a>
-              <a href="">
+              <a href="https://github.com/Tofazzal26" target="_blank">
                 <span className="border-2  flex p-1 rounded-full">
                   <RiGithubFill size={25} />
                 </span>
               </a>
-              <a href="">
+              <a href="/">
                 <span className="border-2  flex p-1 rounded-full">
                   <TbWorld size={25} />
                 </span>

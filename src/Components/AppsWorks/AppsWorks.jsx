@@ -23,7 +23,7 @@ const AppsWorks = () => {
       <div className="mt-6 lg:mt-12">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-12">
           <div>
-            <a href="">
+            <a href="https://transcreaw.web.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter}
                 onMouseLeave={handleInfoLeave}
@@ -55,7 +55,7 @@ const AppsWorks = () => {
 
           <div>
             <div>
-              <a href="">
+              <a href="https://organic-foods-59169.web.app" target="_blank">
                 <div
                   onMouseEnter={handleInfoEnter2}
                   onMouseLeave={handleInfoLeave2}

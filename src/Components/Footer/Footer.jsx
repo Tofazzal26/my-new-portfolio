@@ -150,10 +150,30 @@ const Footer = () => {
             </h2>
           </div>
           <div className="text-[13px] lg:text-[16px] space-x-4 my-2 lg:my-0 lg:space-x-8 font-interFont text-[#b1b1b1]">
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-            <a href="">Instagram</a>
-            <a href="">Linkdein</a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              Facebook
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              Twitter
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+              target="_blank"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.linkedin.com/in/tofazzalhossain-dev"
+              target="_blank"
+            >
+              Linkdein
+            </a>
           </div>
         </div>
       </div>

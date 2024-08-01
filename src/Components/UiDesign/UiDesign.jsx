@@ -38,7 +38,10 @@ const UiDesign = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12">
           <div>
             <div>
-              <a href="">
+              <a
+                href="https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app"
+                target="_blank"
+              >
                 <div
                   onMouseEnter={handleInfoEnter4}
                   onMouseLeave={handleInfoLeave4}
@@ -70,7 +73,7 @@ const UiDesign = () => {
           </div>
           <div>
             <div>
-              <a href="">
+              <a href="https://organic-foods-59169.web.app" target="_blank">
                 <div
                   onMouseEnter={handleInfoEnter2}
                   onMouseLeave={handleInfoLeave2}
@@ -102,7 +105,7 @@ const UiDesign = () => {
           </div>
           <div>
             <div>
-              <a href="">
+              <a href="https://artisan-corner-832b4.web.app" target="_blank">
                 <div
                   onMouseEnter={handleInfoEnter3}
                   onMouseLeave={handleInfoLeave3}

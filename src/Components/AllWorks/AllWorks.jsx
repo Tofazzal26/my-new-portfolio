@@ -42,7 +42,7 @@ const AllWorks = () => {
     <div className="mt-6 lg:mt-12">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-12">
         <div>
-          <a href="">
+          <a href="https://transcreaw.web.app" target="_blank">
             <div
               onMouseEnter={handleInfoEnter}
               onMouseLeave={handleInfoLeave}
@@ -74,7 +74,7 @@ const AllWorks = () => {
 
         <div>
           <div>
-            <a href="">
+            <a href="https://organic-foods-59169.web.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter2}
                 onMouseLeave={handleInfoLeave2}
@@ -106,7 +106,7 @@ const AllWorks = () => {
         </div>
         <div>
           <div>
-            <a href="">
+            <a href="https://artisan-corner-832b4.web.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter3}
                 onMouseLeave={handleInfoLeave3}
@@ -138,7 +138,10 @@ const AllWorks = () => {
         </div>
         <div>
           <div>
-            <a href="">
+            <a
+              href="https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app"
+              target="_blank"
+            >
               <div
                 onMouseEnter={handleInfoEnter4}
                 onMouseLeave={handleInfoLeave4}
