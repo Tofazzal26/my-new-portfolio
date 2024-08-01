@@ -8,7 +8,7 @@ const MyRecentWorks = () => {
   const [toggle, setToggle] = useState(0);
 
   return (
-    <div>
+    <section id="Works">
       <div className="mt-[50px] lg:mt-[100px]">
         <h2 className="text-[30px] lg:text-[45px] text-white text-center font-bold font-dmFont">
           My Recent <span className="text-[#c9f31d]">Works</span>
@@ -69,7 +69,7 @@ const MyRecentWorks = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

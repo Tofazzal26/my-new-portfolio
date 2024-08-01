@@ -12,10 +12,10 @@ const Home = () => {
   return (
     <div className="px-3 lg:px-0">
       <div className="container mx-auto">
-        <div className="mt-12">
+        <div className="mt-[55px] lg:mt-[60px]">
           <Banner />
         </div>
-        <div className="mt-[40px] lg:mt-[95px]">
+        <div className="mt-[40px] lg:mt-[160px]">
           <MyQuality />
           <MyRecentWorks />
           <MyExperience />

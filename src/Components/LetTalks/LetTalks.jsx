@@ -7,7 +7,7 @@ const LetTalks = () => {
   };
 
   return (
-    <div className="mt-[50px] lg:mt-[120px]">
+    <div id="Contact" className="mt-[50px] lg:mt-[120px]">
       <div className="text-white">
         <div className="flex lg:flex-row flex-col gap-[40px] lg:gap-[80px]">
           <div>

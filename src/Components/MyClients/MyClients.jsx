@@ -26,7 +26,7 @@ const MyClients = () => {
   };
 
   return (
-    <div className="mt-[50px] lg:mt-[100px]">
+    <div id="Testimonials" className="mt-[50px] lg:mt-[100px]">
       <div className="text-white bg-[#070707]">
         <div className="flex lg:flex-row flex-col gap-10 p-[20px] lg:p-[120px] justify-center">
           <div>
@@ -92,7 +92,7 @@ const MyClients = () => {
                     vision was impressive
                   </p>
                   <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
-                    Rodlfo E. Shannon
+                    Liam Alexander Johnson
                   </h2>
                   <h3 className="font-interFont mt-1 text-[14px] lg:text-[15px] text-[#c9f31d]">
                     CEO & Founder
@@ -134,7 +134,7 @@ const MyClients = () => {
                     Highly recommended!
                   </p>
                   <h2 className="text-[18px] lg:text-[20px] font-semibold font-dmFont">
-                    Rodlfo E. Shannon
+                    Noah Benjamin Smith
                   </h2>
                   <h3 className="font-interFont text-[13px] mt-1 lg:text-[15px] text-[#c9f31d]">
                     CEO & Founder

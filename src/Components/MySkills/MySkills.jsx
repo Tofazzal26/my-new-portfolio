@@ -8,7 +8,7 @@ import "./MySkills.css";
 
 const MySkills = () => {
   return (
-    <div>
+    <section id="Skills">
       <div className="mt-[40px] lg:mt-[100px]">
         <div>
           <h2 className="text-[30px] lg:text-[45px] font-bold font-dmFont text-white text-center">
@@ -106,7 +106,7 @@ const MySkills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -14,7 +14,7 @@ const Footer = () => {
             <h2 className="text-[20px] lg:text-[26px] font-bold font-interFont">
               Tofazzal Hossain
             </h2>
-            <p className="text-[18px] w-[600px] leading-[25px] mt-[40px] font-interFont text-[#b1b1b1]">
+            <p className="text-[16px] lg:text-[18px] lg:w-[600px] leading-[25px] mt-[40px] font-interFont text-[#b1b1b1]">
               I'm a web developer passionate about crafting beautiful and
               user-friendly web applications. I specialize in turning complex
               ideas into visually stunning and functional websites.
