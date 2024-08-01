@@ -6,7 +6,7 @@ import { BsDownload } from "react-icons/bs";
 import banner from "../../../public/profile-first.png";
 const Banner = () => {
   return (
-    <div id="Resume" className="text-white">
+    <div className="text-white">
       <div className="flex lg:flex-row flex-col items-center justify-between">
         <div>
           <h4 className="text-[#656565] font-interFont text-[22px] lg:text-[45px] leading-[-100px] font-medium tracking-[-0.9px]">

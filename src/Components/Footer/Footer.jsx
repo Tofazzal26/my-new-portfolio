@@ -2,6 +2,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaRegMap } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
+import { Link } from "react-scroll";
 const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,12 +26,65 @@ const Footer = () => {
             <h6 className="text-[16px] lg:text-[18px] font-dmFont font-bold">
               Quick Link
             </h6>
-            <div className="font-interFont my-5 lg:my-10 text-[14px] lg:text-[16px] text-[#b1b1b1] space-x-3 lg:space-x-12">
-              <a href="">Service</a>
-              <a href="">Projects</a>
-              <a href="">Pricing</a>
-              <a href="">Faqs</a>
-              <a href="">Contact</a>
+            <div className="font-interFont my-5 lg:my-10 lg:text-[16px] text-[#b1b1b1]">
+              <ul className="menu menu-horizontal font-dmFont text-[16px] px-1 font-semibold lg:space-x-2">
+                <li>
+                  <Link
+                    to="Services"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={500}
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Works"
+                    spy={true}
+                    smooth={true}
+                    offset={-500}
+                    duration={500}
+                  >
+                    Works
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Resume"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={100}
+                  >
+                    Resume
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-500}
+                    duration={500}
+                  >
+                    Skills
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={500}
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
             </div>
             <div>
               <form onSubmit={handleSubmit}>

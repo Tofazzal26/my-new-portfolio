@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { SectionIds } from "./SectionIds";
 import { useEffect, useState } from "react";
 
@@ -76,19 +76,71 @@ const Headers = () => {
                   className="menu menu-sm dropdown-content bg-base-100 text-black font-dmFont font-semibold text-[10px] rounded-box z-[1] mt-3 w-52 p-2 shadow"
                 >
                   <li>
-                    <a>Home</a>
+                    <Link
+                      activeClass="active"
+                      to="Services"
+                      spy={true}
+                      smooth={true}
+                      offset={-600}
+                      duration={500}
+                    >
+                      Services
+                    </Link>
                   </li>
                   <li>
-                    <a>Works</a>
+                    <Link
+                      to="Works"
+                      spy={true}
+                      smooth={true}
+                      offset={-500}
+                      duration={500}
+                    >
+                      Works
+                    </Link>
                   </li>
                   <li>
-                    <a>Skills</a>
+                    <Link
+                      to="Resume"
+                      spy={true}
+                      smooth={true}
+                      offset={-600}
+                      duration={100}
+                    >
+                      Resume
+                    </Link>
                   </li>
                   <li>
-                    <a>Testimonials</a>
+                    <Link
+                      to="Skills"
+                      spy={true}
+                      smooth={true}
+                      offset={-500}
+                      duration={500}
+                    >
+                      Skills
+                    </Link>
                   </li>
                   <li>
-                    <a>Contact</a>
+                    <Link
+                      to="Testimonials"
+                      spy={true}
+                      smooth={true}
+                      offset={-300}
+                      duration={500}
+                    >
+                      Testimonials
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="Contact"
+                      spy={true}
+                      smooth={true}
+                      offset={-600}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -99,27 +151,75 @@ const Headers = () => {
             <div className="navbar-center hidden md:flex lg:flex">
               <ul className="menu menu-horizontal font-dmFont px-1 text-[16px] font-semibold space-x-2">
                 <li>
-                  <a href="#Services">Services</a>
+                  <Link
+                    to="Services"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={500}
+                  >
+                    Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Works">Works</a>
+                  <Link
+                    to="Works"
+                    spy={true}
+                    smooth={true}
+                    offset={-500}
+                    duration={500}
+                  >
+                    Works
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Resume">Resume</a>
+                  <Link
+                    to="Resume"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={100}
+                  >
+                    Resume
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Skills">Skills</a>
+                  <Link
+                    to="Skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-500}
+                    duration={500}
+                  >
+                    Skills
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Testimonials">Testimonials</a>
+                  <Link
+                    to="Testimonials"
+                    spy={true}
+                    smooth={true}
+                    offset={-300}
+                    duration={500}
+                  >
+                    Testimonials
+                  </Link>
                 </li>
                 <li>
-                  <a href="#Contact">Contact</a>
+                  <Link
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-600}
+                    duration={500}
+                  >
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="navbar-end">
-              <button className="bg-[#c9f31d] text-black font-dmFont text-[15px] font-semibold py-2 px-3 lg:py-3 lg:px-6 rounded-md">
+              <button className="bg-[#c9f31d] text-black font-dmFont text-[14px] lg:text-[16px] font-semibold py-2 px-3 lg:py-3 lg:px-6 rounded-md">
                 Hire me!
               </button>
             </div>

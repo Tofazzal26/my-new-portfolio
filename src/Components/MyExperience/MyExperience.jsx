@@ -57,7 +57,7 @@ const MyExperience = () => {
   };
 
   return (
-    <div className="mt-[50px] lg:mt-[100px]">
+    <div id="Resume" className="mt-[50px] lg:mt-[100px]">
       <div className="bg-[#070707]">
         <div className="lg:px-8 px-4 py-6 lg:py-12">
           <div className="grid lg:grid-cols-2 grid-cols-1">
