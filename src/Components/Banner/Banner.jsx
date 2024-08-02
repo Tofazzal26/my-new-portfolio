@@ -5,8 +5,19 @@ import { TbWorld } from "react-icons/tb";
 import { BsDownload } from "react-icons/bs";
 import banner from "../../../public/profile-first.png";
 const Banner = () => {
+  const RESUME_FILE_URL = "http://localhost:5173/Resume_Portfolio.pdf";
+  const handleDownloadResume = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
+
   return (
-    <div className="text-white">
+    <div id="HireMe" className="text-white">
       <div className="flex lg:flex-row flex-col items-center justify-between">
         <div>
           <h4 className="text-[#656565] font-interFont text-[22px] lg:text-[45px] leading-[-100px] font-medium tracking-[-0.9px]">
@@ -28,8 +39,11 @@ const Banner = () => {
           </p>
           <div className="flex flex-col lg:flex-row gap-6">
             <div>
-              <button className="flex items-center bg-[#c9f31d] gap-2 lg:px-4 px-3 py-[12px] lg:py-[14px] rounded-xl text-black font-interFont font-medium">
-                Download CV
+              <button
+                onClick={() => handleDownloadResume(RESUME_FILE_URL)}
+                className="flex items-center bg-[#c9f31d] gap-2 lg:px-4 px-3 py-[12px] lg:py-[16px] rounded-xl text-black font-interFont font-medium"
+              >
+                Download Resume
                 <BsDownload size={18} />
               </button>
             </div>

@@ -77,7 +77,6 @@ const Headers = () => {
                 >
                   <li>
                     <Link
-                      activeClass="active"
                       to="Services"
                       spy={true}
                       smooth={true}
@@ -219,9 +218,11 @@ const Headers = () => {
               </ul>
             </div>
             <div className="navbar-end">
-              <button className="bg-[#c9f31d] text-black font-dmFont text-[14px] lg:text-[16px] font-semibold py-2 px-3 lg:py-3 lg:px-6 rounded-md">
-                Hire me!
-              </button>
+              <Link to="HireMe">
+                <button className="bg-[#c9f31d] text-black font-dmFont text-[14px] lg:text-[16px] font-semibold py-2 px-3 lg:py-3 lg:px-6 rounded-md">
+                  Hire me!
+                </button>
+              </Link>
             </div>
           </div>
         </div>
