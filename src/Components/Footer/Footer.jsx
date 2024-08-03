@@ -150,30 +150,38 @@ const Footer = () => {
             </h2>
           </div>
           <div className="text-[13px] lg:text-[16px] space-x-4 my-2 lg:my-0 lg:space-x-8 font-interFont text-[#b1b1b1]">
-            <a
-              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
-              target="_blank"
-            >
-              Facebook
-            </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
-              target="_blank"
-            >
-              Twitter
-            </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
-              target="_blank"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://www.linkedin.com/in/tofazzalhossain-dev"
-              target="_blank"
-            >
-              Linkdein
-            </a>
+            <span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                Facebook
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                Twitter
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100073458903552&mibextid=ZbWKwL"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/tofazzalhossain-dev"
+                target="_blank"
+              >
+                Linkdein
+              </a>
+            </span>
           </div>
         </div>
       </div>

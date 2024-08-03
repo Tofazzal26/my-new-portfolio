@@ -18,7 +18,11 @@ const ProjectCompletes = () => {
       </h1>
       <div>
         <div className="flex flex-col justify-center gap-6 lg:gap-16 items-center">
-          <div className="flex lg:flex-row flex-col items-center gap-6 lg:gap-[100px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            className="flex lg:flex-row flex-col items-center gap-6 lg:gap-[100px]"
+          >
             <div>
               <img
                 src={client1}
@@ -55,7 +59,11 @@ const ProjectCompletes = () => {
               />
             </div>
           </div>
-          <div className="flex lg:flex-row flex-col items-center gap-6 lg:gap-[130px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="flex lg:flex-row flex-col items-center gap-6 lg:gap-[130px]"
+          >
             <div>
               <img
                 src={client6}

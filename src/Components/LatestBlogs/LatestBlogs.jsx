@@ -21,7 +21,12 @@ const LatestBlogs = () => {
           <div className="mt-[20px] lg:mt-[50px]">
             <div className="flex lg:flex-row flex-col justify-center p-3 lg:p-0 gap-7">
               <div className="space-y-[20px] lg:space-y-[28px]">
-                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]"
+                >
                   <div className="p-3">
                     <div className="flex lg:flex-row flex-col gap-6 items-center">
                       <div>
@@ -48,7 +53,12 @@ const LatestBlogs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect rounded-[15px] border-[1px] border-gray-600">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  data-aos-duration="1200"
+                  className="bg-[#1f1f1f] lg:w-[630px] BlogEffect rounded-[15px] border-[1px] border-gray-600"
+                >
                   <div className="p-3">
                     <div className="flex lg:flex-row flex-col gap-6 items-center">
                       <div>
@@ -77,7 +87,12 @@ const LatestBlogs = () => {
                 </div>
               </div>
               <div className="space-y-[28px]">
-                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div
+                  data-aos="fade-left"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]"
+                >
                   <div className="p-3">
                     <div className="flex lg:flex-row flex-col gap-6 items-center">
                       <div>
@@ -105,7 +120,12 @@ const LatestBlogs = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]">
+                <div
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                  data-aos-duration="1200"
+                  className="bg-[#1f1f1f] lg:w-[630px] BlogEffect border-[1px] border-gray-600 rounded-[15px]"
+                >
                   <div className="p-3">
                     <div className="flex flex-col lg:flex-row gap-6 items-center">
                       <div>

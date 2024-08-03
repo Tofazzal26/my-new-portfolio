@@ -1,5 +1,6 @@
 import { RiArrowRightSLine } from "react-icons/ri";
 import { FaCheck } from "react-icons/fa6";
+import { Typewriter } from "react-simple-typewriter";
 
 const LetTalks = () => {
   const handleSubmit = (e) => {
@@ -11,22 +12,56 @@ const LetTalks = () => {
       <div className="text-white">
         <div className="flex lg:flex-row flex-col gap-[40px] lg:gap-[80px]">
           <div>
-            <h3 className="text-[14px] lg:text-[16px] text-[#b1b1b1] font-interFont font-medium">
+            <h3
+              data-aos="fade-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className="text-[14px] lg:text-[16px] text-[#b1b1b1] font-interFont font-medium"
+            >
               Get In Touch
             </h3>
-            <h2 className="text-[30px] lg:text-[40px] font-bold mt-2 font-dmFont">
+            <h2
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className="text-[30px] lg:text-[40px] font-bold mt-2 font-dmFont"
+            >
               Let’s Talk For your
             </h2>
-            <h2 className="text-[#c9f31d] text-[30px] lg:text-[40px] font-bold font-dmFont">
-              Next Projects
+            <h2
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className="text-[#c9f31d] text-[30px] lg:text-[40px] font-bold font-dmFont"
+            >
+              Next{" "}
+              <Typewriter
+                words={["Projects"]}
+                loop={0}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
             </h2>
-            <p className="text-[14px] lg:text-[16px] text-[#b1b1b1] lg:w-[410px] mt-8 mb-10 font-interFont font-medium">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className="text-[14px] lg:text-[16px] text-[#b1b1b1] lg:w-[410px] mt-8 mb-10 font-interFont font-medium"
+            >
               Let's collaborate on your next project and turn your vision into a
               beautifully attractive reality. With my expertise in frontend
               development, we can achieve outstanding results together.
             </p>
             <div className="flex flex-col gap-6">
-              <div className="flex gap-4 items-center">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                className="flex gap-4 items-center"
+              >
                 <div className="bg-[#c9f31d] rounded-full p-2">
                   <FaCheck className="text-black" />
                 </div>
@@ -34,7 +69,12 @@ const LetTalks = () => {
                   2+ Years Of Experience
                 </p>
               </div>
-              <div className="flex gap-4 items-center">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                className="flex gap-4 items-center"
+              >
                 <div className="bg-[#c9f31d] rounded-full p-2">
                   <FaCheck className="text-black" />
                 </div>
@@ -42,7 +82,12 @@ const LetTalks = () => {
                   Professional Web Designer
                 </p>
               </div>
-              <div className="flex gap-4 items-center">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1400"
+                className="flex gap-4 items-center"
+              >
                 <div className="bg-[#c9f31d] rounded-full p-2">
                   <FaCheck className="text-black" />
                 </div>
@@ -50,7 +95,12 @@ const LetTalks = () => {
                   Front-End Developer
                 </p>
               </div>
-              <div className="flex gap-4 items-center">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1600"
+                className="flex gap-4 items-center"
+              >
                 <div className="bg-[#c9f31d] rounded-full p-2">
                   <FaCheck className="text-black" />
                 </div>
@@ -64,7 +114,11 @@ const LetTalks = () => {
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8">
                 <div>
-                  <div>
+                  <div
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                  >
                     <h2 className="text-[16px] lg:text-[18px] mb-3 font-medium font-dmFont">
                       Full Name{" "}
                       <span className="text-[#c9f31d] text-[23px]">*</span>
@@ -77,7 +131,11 @@ const LetTalks = () => {
                       required
                     />
                   </div>
-                  <div>
+                  <div
+                    data-aos="fade-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1200"
+                  >
                     <h2 className="text-[16px] lg:text-[18px] mb-3 mt-[20px] lg:mt-[35px] font-medium font-dmFont">
                       Phone Number{" "}
                       <span className="text-[#c9f31d] text-[23px]">*</span>
@@ -92,7 +150,11 @@ const LetTalks = () => {
                   </div>
                 </div>
                 <div>
-                  <div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                  >
                     <h2 className="text-[16px] lg:text-[18px] mb-3 font-medium font-dmFont">
                       Email Address{" "}
                       <span className="text-[#c9f31d] text-[23px]">*</span>
@@ -105,7 +167,11 @@ const LetTalks = () => {
                       required
                     />
                   </div>
-                  <div>
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="1200"
+                  >
                     <h2 className="text-[16px] lg:text-[18px] mb-3 mt-[20px] lg:mt-[35px] font-medium font-dmFont">
                       Subject{" "}
                       <span className="text-[#c9f31d] text-[23px]">*</span>
@@ -120,7 +186,11 @@ const LetTalks = () => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="150"
+                data-aos-duration="1400"
+              >
                 <h2 className="text-[16px] lg:text-[18px] mt-[20px] lg:mt-[35px] mb-3 font-medium font-dmFont">
                   Message <span className="text-[#c9f31d] text-[23px]">*</span>
                 </h2>
@@ -133,7 +203,12 @@ const LetTalks = () => {
                   required
                 ></textarea>
               </div>
-              <button className="text-[14px] lg:text-[16px] bg-[#c9f31d] font-semibold px-[20px] py-[14px] lg:px-[30px] lg:py-[14px] rounded-[15px] font-interFont text-black flex items-center">
+              <button
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1600"
+                className="text-[14px] lg:text-[16px] bg-[#c9f31d] font-semibold px-[20px] py-[14px] lg:px-[30px] lg:py-[14px] rounded-[15px] font-interFont text-black flex items-center"
+              >
                 Send Us Message <RiArrowRightSLine size={20} />
               </button>
             </form>

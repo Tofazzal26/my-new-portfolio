@@ -4,6 +4,15 @@ import { RiGithubFill } from "react-icons/ri";
 import { TbWorld } from "react-icons/tb";
 import { BsDownload } from "react-icons/bs";
 import banner from "../../../public/profile-first.png";
+import CountUp from "react-countup";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+import { Typewriter } from "react-simple-typewriter";
+import { useEffect } from "react";
+
+AOS.init({
+  disable: "mobile",
+});
 const Banner = () => {
   const RESUME_FILE_URL = "http://localhost:5173/Resume_Portfolio.pdf";
   const handleDownloadResume = (url) => {
@@ -19,25 +28,59 @@ const Banner = () => {
   return (
     <div id="HireMe" className="text-white">
       <div className="flex lg:flex-row flex-col items-center justify-between">
-        <div>
-          <h4 className="text-[#656565] font-interFont text-[22px] lg:text-[45px] leading-[-100px] font-medium tracking-[-0.9px]">
+        <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+          <h4
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className="text-[#656565] font-interFont text-[22px] lg:text-[45px] leading-[-100px] font-medium tracking-[-0.9px]"
+          >
             Hello, i'm
           </h4>
           <div className="lg:leading-[80px]">
-            <h2 className="text-[#c9f31d] font-dmFont font-bold text-[34px] lg:text-[65px]">
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className="text-[#c9f31d] font-dmFont font-bold text-[34px] lg:text-[65px]"
+            >
               Tofazzal Hossain
             </h2>
-            <h3 className="font-dmFont text-[34px] lg:text-[65px]">
-              Web Developer
+            <h3
+              data-aos="fade-right"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              className="font-dmFont text-[34px] lg:text-[65px]"
+            >
+              Web{" "}
+              <Typewriter
+                words={["Developer"]}
+                loop={0}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
             </h3>
           </div>
-          <p className="font-interFont text-[16px] lg:text-[18px] mb-6 lg:w-[550px] text-[#b1b1b1]">
+          <p
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className="font-interFont text-[16px] lg:text-[18px] mb-6 lg:w-[550px] text-[#b1b1b1]"
+          >
             I am a developer passionate about showcasing frontend requirements
             in an attractive way, I am serious, focused, and love new challenges
             believing it's better to fail independently than succeed relying on
             others.
           </p>
-          <div className="flex flex-col lg:flex-row gap-6">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className="flex flex-col lg:flex-row gap-6"
+          >
             <div>
               <button
                 onClick={() => handleDownloadResume(RESUME_FILE_URL)}
@@ -77,14 +120,14 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000">
           <img src={banner} width={700} alt="" />
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
           <div className="bg-black w-[240px] p-6 rounded-xl">
             <div>
               <h2 className="font-dmFont  text-[40px] font-medium text-[#c9f31d]">
-                2+
+                <CountUp start={0} duration={5} end={2}></CountUp>+
               </h2>
               <h4 className="text-[#a1a6a6]  font-interFont text-[16px]">
                 Years Of Experience
@@ -92,7 +135,7 @@ const Banner = () => {
             </div>
             <div className="border-b-[1px] border-t-[1px] border-gray-600 my-6 py-6">
               <h2 className="font-dmFont  text-[40px] font-medium text-[#c9f31d]">
-                100+
+                <CountUp start={0} duration={5} end={100}></CountUp>+
               </h2>
               <h4 className="text-[#a1a6a6]  font-interFont text-[16px]">
                 Project Complete
@@ -100,7 +143,7 @@ const Banner = () => {
             </div>
             <div>
               <h2 className="font-dmFont  text-[40px] font-medium text-[#c9f31d]">
-                99%
+                <CountUp start={0} duration={5} end={99}></CountUp>%
               </h2>
               <h4 className="text-[#a1a6a6]  font-interFont text-[16px]">
                 Client Satisfactions

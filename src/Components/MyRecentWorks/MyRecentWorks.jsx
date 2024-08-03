@@ -52,7 +52,12 @@ const MyRecentWorks = () => {
               </button>
             </div>
           </div>
-          <div className="text-white">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            className="text-white"
+          >
             <div>
               {toggle === 0 ? (
                 <AllWorks />

@@ -71,6 +71,9 @@ const MyExperience = () => {
               <div className="mt-[20px] lg:mt-[40px]">
                 <div className="space-y-4 lg:space-y-8">
                   <div
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
                     onMouseEnter={handleChange}
                     onMouseLeave={handleBefore}
                     className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
@@ -92,6 +95,9 @@ const MyExperience = () => {
                     </div>
                   </div>
                   <div
+                    data-aos="fade-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1200"
                     onMouseEnter={handleChange2}
                     onMouseLeave={handleBefore2}
                     className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
@@ -113,6 +119,9 @@ const MyExperience = () => {
                     </div>
                   </div>
                   <div
+                    data-aos="fade-right"
+                    data-aos-delay="150"
+                    data-aos-duration="1400"
                     onMouseEnter={handleChange3}
                     onMouseLeave={handleBefore3}
                     className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
@@ -147,6 +156,9 @@ const MyExperience = () => {
                 <div className="mt-[20px] lg:mt-[40px]">
                   <div className="space-y-4 lg:space-y-8">
                     <div
+                      data-aos="fade-left"
+                      data-aos-delay="50"
+                      data-aos-duration="1000"
                       onMouseEnter={handleChange4}
                       onMouseLeave={handleBefore4}
                       className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
@@ -169,6 +181,9 @@ const MyExperience = () => {
                       </div>
                     </div>
                     <div
+                      data-aos="fade-left"
+                      data-aos-delay="100"
+                      data-aos-duration="1200"
                       onMouseEnter={handleChange5}
                       onMouseLeave={handleBefore5}
                       className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
@@ -192,6 +207,9 @@ const MyExperience = () => {
                     <div
                       onMouseEnter={handleChange6}
                       onMouseLeave={handleBefore6}
+                      data-aos="fade-left"
+                      data-aos-delay="150"
+                      data-aos-duration="1400"
                       className="bg-[#1b1b1b] education cursor-pointer lg:w-[600px] rounded-2xl text-white"
                     >
                       <div className="p-6 ">

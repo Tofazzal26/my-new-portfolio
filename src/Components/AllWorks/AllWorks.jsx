@@ -49,6 +49,7 @@ const AllWorks = () => {
               className="bg-[#212c01] pr-8 cursor-pointer pl-8 pt-8 relative rounded-lg"
             >
               <img src={project1} alt="project1" />
+
               <div
                 className={`absolute bottom-3 left-5 bg-[#c9f31d] rounded-lg text-black lg:w-[705px] ${
                   info === true ? "block" : "hidden"

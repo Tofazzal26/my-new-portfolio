@@ -21,8 +21,14 @@ const MyQuality = () => {
               excellence.
             </p>
           </div>
-          <div className="text-white ">
-            <div className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black">
+          <div className="text-white">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              className=" border-t-[1px] border-gray-800 cursor-pointer bg-[#c9f31d] text-black"
+            >
               <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
                 <div className="flex lg:gap-6 flex-col lg:flex-row items-center">
                   <span className="text-[25px] font-bold font-dmFont">01</span>
@@ -41,7 +47,13 @@ const MyQuality = () => {
                 </div>
               </div>
             </div>
-            <div className=" border-t-[1px] border-gray-800 cursor-pointer MyService">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              className=" border-t-[1px] border-gray-800 cursor-pointer MyService"
+            >
               <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
                 <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                   <span className="text-[25px] font-bold font-dmFont">02</span>
@@ -60,7 +72,13 @@ const MyQuality = () => {
                 </div>
               </div>
             </div>
-            <div className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800 MyService">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="200"
+              data-aos-duration="1400"
+              className="cursor-pointer border-b-[1px] border-t-[1px] border-gray-800 MyService"
+            >
               <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
                 <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                   <span className="text-[25px] font-bold font-dmFont">03</span>
@@ -79,7 +97,13 @@ const MyQuality = () => {
                 </div>
               </div>
             </div>
-            <div className=" border-b-[1px] border-gray-800 cursor-pointer MyService">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="300"
+              data-aos-duration="1600"
+              className=" border-b-[1px] border-gray-800 cursor-pointer MyService"
+            >
               <div className="flex flex-col lg:flex-row items-center justify-between p-4 lg:p-10">
                 <div className="flex flex-col lg:flex-row lg:gap-6 items-center">
                   <span className="text-[25px] font-bold font-dmFont">04</span>

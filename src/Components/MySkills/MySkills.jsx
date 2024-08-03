@@ -23,7 +23,12 @@ const MySkills = () => {
 
         <div className="mt-6 lg:mt-12">
           <div className="flex lg:flex-row flex-col justify-center items-center gap-3 lg:gap-6">
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={figma} width={60} alt="" />
@@ -35,7 +40,12 @@ const MySkills = () => {
 
               <h2 className="text-[16px] font-interFont text-white">Figma</h2>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="150"
+              data-aos-duration="1200"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white cursor-pointer w-[200px] lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={illustrator} width={60} alt="" />
@@ -49,7 +59,12 @@ const MySkills = () => {
                 Illustrator
               </h2>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="1400"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={react} width={60} alt="" />
@@ -61,7 +76,12 @@ const MySkills = () => {
 
               <h2 className="text-[16px] font-interFont text-white">React</h2>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="250"
+              data-aos-duration="1600"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={photo_shop} width={60} alt="" />
@@ -75,7 +95,12 @@ const MySkills = () => {
                 PhotoShop
               </h2>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="1800"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={javascript} width={60} alt="" />
@@ -89,7 +114,12 @@ const MySkills = () => {
                 JavaScript
               </h2>
             </div>
-            <div className="flex flex-col items-center gap-3">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="350"
+              data-aos-duration="2000"
+              className="flex flex-col items-center gap-3"
+            >
               <div className="bg-[#070707] text-white w-[200px] cursor-pointer lg:w-[180px] py-[40px] lg:py-10 MySkills rounded-[30px]">
                 <div className="flex items-center justify-center flex-col">
                   <img src={premiere_pro} width={60} alt="" />
