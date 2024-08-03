@@ -82,13 +82,15 @@ const Banner = () => {
             className="flex flex-col lg:flex-row gap-6"
           >
             <div>
-              <button
-                onClick={() => handleDownloadResume(RESUME_FILE_URL)}
-                className="flex items-center bg-[#c9f31d] gap-2 lg:px-4 px-3 py-[12px] lg:py-[16px] rounded-xl text-black font-interFont font-medium"
-              >
-                Download Resume
-                <BsDownload size={18} />
-              </button>
+              <a target="_blank">
+                <button
+                  onClick={() => handleDownloadResume(RESUME_FILE_URL)}
+                  className="flex items-center bg-[#c9f31d] gap-2 lg:px-4 px-3 py-[12px] lg:py-[16px] rounded-xl text-black font-interFont font-medium"
+                >
+                  Download Resume
+                  <BsDownload size={18} />
+                </button>
+              </a>
             </div>
             <div className="flex gap-4 items-center">
               <a

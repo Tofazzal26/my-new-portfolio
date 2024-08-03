@@ -3,51 +3,10 @@ import { SectionIds } from "./SectionIds";
 import { useEffect, useState } from "react";
 
 const Headers = () => {
-  // const [activeLink, setActiveLink] = useState("Resume");
-  // const [isScrolled, setIsScrolled] = useState(false);
-
-  // const scrollToSection = (sectionId) => {
-  //   const element = document.getElementById(sectionId);
-  //   if (element) {
-  //     const marginTop = 0;
-  //     const scrollToy =
-  //       element.getBoundingClientRect().top + window.scrollY - marginTop;
-  //     window.scrollTo({ top: scrollToy, behavior: "smooth" });
-  //   }
-  // };
-
-  // const determineActiveSection = () => {
-  //   for (let i = SectionIds.length - 1; i >= 0; i--) {
-  //     const section = document.getElementById(SectionIds[i]);
-  //     if (section) {
-  //       const rect = section.getBoundingClientRect();
-  //       if (rect.top <= 120 && rect.bottom >= 120) {
-  //         setActiveLink(SectionIds[i]);
-  //         break;
-  //       }
-  //     }
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 300) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //     determineActiveSection();
-  //     window.addEventListener("scroll", handleScroll);
-  //     return () => {
-  //       window.removeEventListener("scroll", handleScroll);
-  //     };
-  //   };
-  // }, []);
-
   return (
     <section>
-      <div className="fixed top-0 z-50 w-full">
-        <div className="bg-[#1f1f1f] text-white">
+      <div className="fixed top-0 z-50 shadow-navBar w-full">
+        <div className="bg-[#1f1f1f]  text-white">
           <div className="navbar container mx-auto">
             <div className="navbar-start">
               <div className="dropdown">
