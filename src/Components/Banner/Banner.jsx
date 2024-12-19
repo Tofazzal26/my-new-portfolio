@@ -14,7 +14,7 @@ AOS.init({
   disable: "mobile",
 });
 const Banner = () => {
-  const RESUME_FILE_URL = "http://localhost:5173/Resume_Portfolio.pdf";
+  const RESUME_FILE_URL = "http://localhost:5173/TofazzalResume.pdf";
   const handleDownloadResume = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");

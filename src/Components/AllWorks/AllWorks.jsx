@@ -1,7 +1,4 @@
-import project1 from "../../../public/Transcreaw.png";
-import project2 from "../../../public/Luxury Hotel.png";
-import project3 from "../../../public/Artisan Corner.png";
-import project4 from "../../../public/Realist home.png";
+import "./AllWorkStyle/AllWorkStyle.css";
 import { BsArrowRight } from "react-icons/bs";
 import { useState } from "react";
 const AllWorks = () => {
@@ -41,14 +38,14 @@ const AllWorks = () => {
   return (
     <div className="mt-6 lg:mt-12">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-12">
-        <div>
-          <a href="https://transcreaw.web.app" target="_blank">
+        <div className="card">
+          <a href="https://orfarm-grocery.vercel.app" target="_blank">
             <div
               onMouseEnter={handleInfoEnter}
               onMouseLeave={handleInfoLeave}
               className="bg-[#212c01] pr-8 cursor-pointer pl-8 pt-8 relative rounded-lg"
             >
-              <img src={project1} alt="project1" />
+              <img src="/Orfarm.png" alt="Orfarm" />
 
               <div
                 className={`absolute bottom-3 left-5 bg-[#c9f31d] rounded-lg text-black lg:w-[705px] ${
@@ -58,7 +55,7 @@ const AllWorks = () => {
                 <div className="flex justify-between items-center p-4">
                   <div>
                     <h2 className="text-[30px] font-bold font-interFont">
-                      Transcrew
+                      Orfarm-Grocery
                     </h2>
                     <p className="text-[16px] mt-2 font-dmFont font-semibold">
                       Here is everything about the project
@@ -72,16 +69,15 @@ const AllWorks = () => {
             </div>
           </a>
         </div>
-
         <div>
-          <div>
-            <a href="https://organic-foods-59169.web.app" target="_blank">
+          <div className="card">
+            <a href="https://best-deal-909.web.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter2}
                 onMouseLeave={handleInfoLeave2}
                 className="bg-[#212c01] pr-8 cursor-pointer pl-8 pt-8 relative rounded-lg"
               >
-                <img src={project2} alt="project1" />
+                <img src="/best-deal.png" alt="best-deal" />
                 <div
                   className={`absolute bottom-3 left-5 bg-[#c9f31d] rounded-lg text-black lg:w-[705px] ${
                     info2 === true ? "block" : "hidden"
@@ -90,7 +86,7 @@ const AllWorks = () => {
                   <div className="flex justify-between items-center p-4">
                     <div>
                       <h2 className="text-[30px] font-bold font-interFont">
-                        Luxury Hotel
+                        Best-Deal
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
                         Here is everything about the project
@@ -106,14 +102,14 @@ const AllWorks = () => {
           </div>
         </div>
         <div>
-          <div>
-            <a href="https://artisan-corner-832b4.web.app" target="_blank">
+          <div className="card">
+            <a href="https://transcreaw.web.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter3}
                 onMouseLeave={handleInfoLeave3}
                 className="bg-[#212c01] pr-8 cursor-pointer pl-8 pt-8 relative rounded-lg"
               >
-                <img src={project3} alt="project1" />
+                <img src="/transcreaw2.png" alt="Transcreaw" />
                 <div
                   className={`absolute bottom-3 left-5 bg-[#c9f31d] rounded-lg text-black lg:w-[705px] ${
                     info3 === true ? "block" : "hidden"
@@ -122,7 +118,7 @@ const AllWorks = () => {
                   <div className="flex justify-between items-center p-4">
                     <div>
                       <h2 className="text-[30px] font-bold font-interFont">
-                        Artisan Corner
+                        Transcreaw
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
                         Here is everything about the project
@@ -138,17 +134,14 @@ const AllWorks = () => {
           </div>
         </div>
         <div>
-          <div>
-            <a
-              href="https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app"
-              target="_blank"
-            >
+          <div className="card">
+            <a href="https://green-harvest-ten.vercel.app" target="_blank">
               <div
                 onMouseEnter={handleInfoEnter4}
                 onMouseLeave={handleInfoLeave4}
                 className="bg-[#212c01] pr-8 cursor-pointer pl-8 pt-8 relative rounded-lg"
               >
-                <img src={project4} alt="project1" />
+                <img src="/greenharvest.png" alt="green-harvest" />
                 <div
                   className={`absolute bottom-3 left-5 bg-[#c9f31d] rounded-lg text-black lg:w-[705px] ${
                     info4 === true ? "block" : "hidden"
@@ -157,7 +150,7 @@ const AllWorks = () => {
                   <div className="flex justify-between items-center p-4">
                     <div>
                       <h2 className="text-[30px] font-bold font-interFont">
-                        Realist Home
+                        Green-Harvest
                       </h2>
                       <p className="text-[16px] mt-2 font-dmFont font-semibold">
                         Here is everything about the project
