@@ -14,7 +14,8 @@ AOS.init({
   disable: "mobile",
 });
 const Banner = () => {
-  const RESUME_FILE_URL = "http://localhost:5173/TofazzalResume.pdf";
+  const RESUME_FILE_URL =
+    "https://tofazzal-hossain.netlify.app/TofazzalHossainTwo.pdf";
   const handleDownloadResume = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
